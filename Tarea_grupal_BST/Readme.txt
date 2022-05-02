@@ -9,4 +9,4 @@ Universidad Nacional de Colombia
 Tarea-grupal
 
 Objetivo:
-Editar el codigo para crear arboles binarios de busqueda por consola, y visualizar el arbol creado
+Editar el código para crear arboles binarios de busqueda por consola, y proponer una manera de visualizar el arbol creado.
