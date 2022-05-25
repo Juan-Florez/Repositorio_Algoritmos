@@ -1,0 +1,13 @@
+Definición del problema:
+El sistema de transporte público en Bogotá es muy grande, una de las formas más comunes de planear las rutas es con los mapas, sin embargo, muchas veces no es eficiente, debido a la gran cantidad de combinaciones de rutas que se pueden coger.
+------------
+Objetivo del algoritmo:
+Nuestra idea es implementar un algoritmo que nos ayude a optimizar las rutas de un lugar a otro teniendo en cuenta el número de transbordos y número de paradas que hay en una ruta.
+-----------
+Algoritmo:
+El sistema de Transmilenio se representará con un grafo no dirigido ponderado, los nodos son las estaciones (136), los nodos están conectados entre si (por los vértices) cuando son estaciones seguidas en una ruta (puede haber más de un vértice conectando dos nodos). 
+El valor de cada vértice dependerá de el número de estaciones que hay entre dos nodos, por ejemplo, en las rutas del servicio ruta fácil de Transmilenio, los vértices tendrán los valores más altos, porque en estas rutas, los buses paran en todas las estaciones.
+Para hallar los caminos más cortos entre estaciones se usará el Algoritmo de Dijkstra, después se compararán los resultados para ver cuántos transbordos hay en cada ruta y así determinar cuál es la mejor ruta teniendo en cuenta dos variables.
+----------------
+Datos:
+La fuente de donde se van a adquirir los datos es la página de Transmilenio.
